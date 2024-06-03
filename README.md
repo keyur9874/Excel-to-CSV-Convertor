@@ -9,6 +9,9 @@ Excel-to-CSV-Convertor is an Azure Function that triggers on Excel file upload t
 3. Update the Azure Blob Storage connection strings in the local.settings.json file.
 4. Run the solution.
 
+## Architecture Diagram
+![image](https://github.com/keyur9874/Excel-to-CSV-Convertor/assets/73292698/e8c815c0-993a-45aa-8f0f-8d2814b0b75f)
+
 ## Usage
 
 Upload an Excel file to the specified input container in your Azure Blob Storage. The Azure Function will automatically trigger, convert the file to CSV, and upload the converted file to the output container.
